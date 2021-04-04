@@ -1,0 +1,235 @@
+
+/////order1
+{
+  {
+  "customer": {
+      "externalCustomerId": 245,
+      "familyName": "Mustapha",
+      "firstName": "Yilmaz",
+      "phone": "488296046"
+    },
+    "delivery": {
+      "cost": 50,
+      "externalDeliveryId": 2145,
+      "status": "ON_DELIVERY_PARENT"
+    },
+    "deliveryDate": "2021-01-22",
+    "deliveryTime": "17:30",
+    "discount": 0,
+    "note": "Allergic to lactose",
+    "orderTrackingId": 6874,
+    "paymentDateTime": "2021-01-22 15:37",
+    "paymentStatus": "ALL_PAID",
+    "payments": [
+      {
+        "amount": 71.95,
+        "externalPaymentItemId": 3648
+      }
+    ],
+    "products": [
+      {
+        "externalProductId": 452,
+        "price": 12,
+        "productName": "Pizza Margarita",
+        "quantity": 2,
+        "tax": 0.21
+      },
+      {
+            "externalProductId": 369,
+            "price": 9.95,
+            "productName": "Bbq Chicken",
+            "quantity": 2,
+            "tax": 0.21
+          }
+    ],
+    "requiredDate": "2021-01-22",
+    "requiredTime": "17:20",
+    "status": "PROCESSING_BEING_COOKED",
+    "store": {
+      "externalStoreId": 3269,
+      "storeName": "Pizza Heat"
+    }
+  }
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////order2
+{
+  "customer": {
+    "externalCustomerId": 245,
+    "familyName": "Mustapha",
+    "firstName": "Yilmaz",
+    "phone": "488296046"
+  },
+  "delivery": {
+    "cost": 50,
+    "externalDeliveryId": 7749,
+    "status": "ON_DELIVERY_BEING_PREPARED"
+  },
+  "deliveryDate": "2021-01-22",
+  "deliveryTime": "20:30",
+  "discount": 0,
+  "note": "Allergic to lactose",
+  "orderTrackingId": 5564,
+  "paymentDateTime": "2021-01-22 19:55",
+  "paymentStatus": "ALL_PAID",
+  "payments": [
+    {
+      "amount": 77.50,
+      "externalPaymentItemId": 2467
+    }
+  ],
+  "products": [
+    {
+      "externalProductId": 569,
+      "price": 4.5,
+      "productName": "Nigri Ebi",
+      "quantity": 2,
+      "tax": 0.21
+    },
+    {
+          "externalProductId": 233,
+          "price": 23,
+          "productName": "campi Teriyaki",
+          "quantity": 3,
+          "tax": 0.21
+        }
+  ],
+  "requiredDate": "2021-01-22",
+  "requiredTime": "20:20",
+  "status": "PROCESSING_BEING_COOKED",
+  "store": {
+    "externalStoreId": 3269,
+    "storeName": "Nori Sushi"
+  }
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+{
+  "customer": {
+    "externalCustomerId": 5467,
+    "familyName": "string",
+    "firstName": "string"
+  },
+  "delivery": {
+    "cost": 100,
+    "externalDeliveryId": 4545,
+    "status": "ON_DELIVERY_PARENT"
+  },
+  "deliveryDate": "2021-01-21",
+  "deliveryTime": "15:00",
+  "discount": 0,
+  "note": "string",
+  "orderTrackingId": 0,
+  "paymentDateTime": "2021-01-21 10:30",
+  "paymentStatus": "ALL_PAID",
+  "payments": [
+    {
+      "amount": 45,
+      "externalPaymentItemId": 1545
+    }
+  ],
+  "products": [
+    {
+      "externalProductId": 548,
+      "price": 264,
+      "productName": "string",
+      "quantity": 2,
+      "tax": 0.21
+    }
+  ],
+  "requiredDate": "2021-01-21",
+  "requiredTime": "15:00",
+  "status": "PROCESSING_PARENT",
+  "store": {
+    "externalStoreId": 544,
+    "storeName": "string"
+  }
+}
+**********************************updated
+{
+  "customer": {
+    "externalCustomerId": 365,
+    "familyName": "Shirisha",
+    "firstName": "Shirisha"
+  },
+  "delivery": {
+    "cost": 25,
+    "externalDeliveryId": 5478,
+    "status": "string"
+  },
+  "deliveryDate": "2020-05-23",
+  "deliveryTime": "22:30",
+  "deliveryTotal": 25,
+  "note": "string",
+  "orderTrackingId": 5478,
+  "paymentDateTime": "2020-05-23 22:30",
+  "payments": [
+    {
+      "amount": 35,
+      "externalPaymentId": 3247
+    }
+  ],
+  "priceTotal": 55,
+  "products": [
+    {
+      "externalProductId": 2014,
+      "price": 30,
+      "quantity": 10,
+      "tax": 0
+    }
+  ],
+  "productsTotal": 30,
+  "requiredDate": "2020-05-23",
+  "requiredTime": "22:30",
+  "status": "PROCESSING_PARENT",
+  "store": {
+    "externalStoreId": 638,
+    "name": "string"
+  },
+  "taxTotal": 0,
+  "updatedDateTime": "2021-01-16 23:49"
+}
+***********************************example
+{
+  "creationDateTime": "2021-01-16 22:47",
+  "customer": {
+    "externalCustomerId": 365,
+    "familyName": "Shirisha",
+    "firstName": "Shirisha"
+  },
+  "delivery": {
+    "cost": 25,
+    "externalDeliveryId": 5478,
+    "status": "string"
+  },
+  "deliveryDate": "2020-05-23",
+  "deliveryTime": "22:30",
+  "deliveryTotal": 25,
+  "note": "string",
+  "orderTrackingId": 5478,
+  "paymentDateTime": "2020-05-23 22:30",
+  "payments": [
+    {
+      "amount": 35,
+      "externalPaymentId": 3247
+    }
+  ],
+  "priceTotal": 55,
+  "products": [
+    {
+      "externalProductId": 2014,
+      "price": 30,
+      "quantity": 10,
+      "tax": 0
+    }
+  ],
+  "productsTotal": 30,
+  "requiredDate": "2020-05-23",
+  "requiredTime": "22:30",
+  "status": "PROCESSING_PARENT",
+  "store": {
+    "externalStoreId": 638,
+    "name": "string"
+  },
+  "taxTotal": 0,
+  "updatedDateTime": "2021-01-16 23:49"
+}
